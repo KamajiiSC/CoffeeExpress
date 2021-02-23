@@ -1,0 +1,24 @@
+#event{
+  display: flex;
+  justify-content: space-around;
+}
+
+.event-img{
+  width: 48%;
+}
+
+.events{
+  width: 40%;
+}
+
+.event-list{
+  list-style: none;
+}
+
+.event-post{
+  padding-left: 1em;
+  padding-bottom: 1em;
+  border-left: .5em solid #C6713A;
+  border-bottom: .5em solid #C6713A;
+
+}
