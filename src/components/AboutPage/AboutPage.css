@@ -12,11 +12,16 @@
 }
 
 .bottom-section-about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   text-align: center;
-  height: 100%;
-  margin: 1em auto;
-  padding: 1em 8em;
-  width: 70%;
+  height: 16.2em;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 0 8em;
+  padding-top: 1.45em;
+  width: 85%;
   background-color: #EFD495;
 }
 .about-title{
