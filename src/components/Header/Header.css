@@ -2,7 +2,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 95%;
+  width: 89%;
   margin: 2em auto;
 }
 
@@ -39,5 +39,8 @@ nav ul{
 }
 
 nav ul li{
-  padding-right: 4em;
+  padding-right: 3em;
+}
+nav ul li:nth-child(5){
+  padding-right: 0em;
 }
