@@ -6,8 +6,8 @@ import './HomePage.css';
 const HomePage = () => (
   <main id="home">
     <section className="left-section">
-      <h1 className="home-title">Café & <br /> Bakery</h1>
-      <p className="home-logo">Your routine is our routine</p>
+      <h1 className="home-title">Café &<br />Bakery</h1>
+      <p className="home-slogan">Your routine is our routine</p>
       <NavLink to="/contact">FIND US</NavLink>
     </section>
     
