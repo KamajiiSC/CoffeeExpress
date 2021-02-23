@@ -38,4 +38,8 @@
   color: black;
   margin-left: 1em;
 }
+.link-list{
+  display: flex;
+  list-style: none;
+}
 
