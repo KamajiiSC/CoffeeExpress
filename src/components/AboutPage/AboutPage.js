@@ -14,6 +14,16 @@ const AboutPage = () => (
       </section>
     </section>
     
+    <section className="bottom-section-about">
+      <h1 className="about-title">About Us</h1>
+      <p className="about-desc">Coffee can be an essential part of your daily routine, or a backdrop
+      for an important first date. Since 2008 Coffee Express has
+      provided the most consistent cup for any situation. Our secret? 
+      Top level craftsmanship and our in-house blend, 
+      roasted to perfection every time.
+      </p>
+    </section>
+
   </main>
 );
 

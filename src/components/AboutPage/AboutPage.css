@@ -1,11 +1,27 @@
 .top-section-about{
   display: flex;
   justify-content: space-around;
-  font-size: 54px;
+  font-size: 48px;
 }
 
 .quotes{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-right: 2em;
+}
+
+.bottom-section-about{
+  text-align: center;
+  height: 100%;
+  margin: 1em auto;
+  padding: 1em 8em;
+  width: 70%;
+  background-color: #EFD495;
+}
+.about-title{
+  font-size: 54px;
+}
+.about-desc{
+  font-size: 42px;
 }
