@@ -25,4 +25,12 @@ nav ul{
 }
 nav ul li a{
   text-decoration: none;
+  font-size: 36px;
+}
+
+nav ul li{
+  padding-right: 2em;
+}
+nav ul:nth-child(4){
+  padding-right: 0;
 }
