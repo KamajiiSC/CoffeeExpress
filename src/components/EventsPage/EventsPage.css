@@ -20,5 +20,13 @@
   padding-bottom: 1em;
   border-left: .5em solid #C6713A;
   border-bottom: .5em solid #C6713A;
+}
 
+.event-el{
+  margin-bottom: .5em;
+}
+
+.event-post a{
+  text-decoration: none;
+  color: black;
 }
