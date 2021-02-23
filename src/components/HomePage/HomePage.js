@@ -1,5 +1,5 @@
 import React from 'react';
-import home from '../../resources/home-page-vector.svg';
+import home from '../../resources/hang-out.svg';
 import { NavLink } from 'react-router-dom';
 import './HomePage.css';
 
