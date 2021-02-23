@@ -4,7 +4,11 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <h2 className="shop-name">Coffee<span className="express">Express</span></h2>
+    <NavLink className="shop-logo" to="/">
+      <h2 className="shop-name">
+        Coffee<span className="express">Express</span>
+      </h2>
+    </NavLink>
     
     <nav>
       <ul>

@@ -12,6 +12,9 @@ header{
   font-weight: 400;
   color:#5A3116;
 }
+.shop-logo{
+  text-decoration: none;
+}
 .express{
   font-family: 'Akaya Kanadaka', cursive;
   font-size: 76px;
