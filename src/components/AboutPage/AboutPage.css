@@ -1,0 +1,11 @@
+.top-section-about{
+  display: flex;
+  justify-content: space-around;
+  font-size: 54px;
+}
+
+.quotes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

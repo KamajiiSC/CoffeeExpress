@@ -4,7 +4,7 @@
   margin-top: 5em;
 }
 
-.left-section{
+.left-section-home{
   text-align: center;
   width: 50%;
   display: flex;
@@ -31,7 +31,7 @@
   font-size: 60px;
 }
 
-.right-section{
+.right-section-home{
   width: 50%;
 }
 
