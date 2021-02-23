@@ -8,7 +8,7 @@ const HomePage = () => (
     <section className="left-section">
       <h1 className="home-title">Café &<br />Bakery</h1>
       <p className="home-slogan">Your routine is our routine</p>
-      <NavLink to="/contact">FIND US</NavLink>
+      <NavLink to="/contact" className="home-btn">FIND US</NavLink>
     </section>
     
     <section className="right-section">

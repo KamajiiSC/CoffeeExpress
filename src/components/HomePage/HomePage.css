@@ -9,11 +9,22 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+.home-btn{
+  background-color: #C6713A;
+  margin: 0 auto;
+  border-radius: .8em;
+  padding: .1em 1em;
+  text-decoration: none;
+  color:white;
+  font-size: 42px;
+}
+
 .home-title{
   font-size: 180px;
   color: #5A3116;
+  line-height: 100%;
 }
 .home-slogan{
   font-size: 60px;
@@ -27,3 +38,4 @@
   width: 90%;
   margin: 0 auto;
 }
+
