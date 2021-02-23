@@ -23,7 +23,7 @@ nav ul{
   list-style: none;
   display: flex;
 }
-nav ul li a{
+.nav-el{
   text-decoration: none;
   font-size: 36px;
   color: #A4A4A4;
