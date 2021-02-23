@@ -36,8 +36,5 @@ nav ul{
 }
 
 nav ul li{
-  padding-right: 2em;
-}
-nav ul:nth-child(4){
-  padding-right: 0;
+  padding-right: 4em;
 }
