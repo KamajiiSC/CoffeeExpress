@@ -1,6 +1,7 @@
 import React from 'react';
 import './EventsPage.css';
 import specialEvent from '../../resources/special-event.svg';
+import Events from './Events';
 
 const EventsPage = () => (
   <main id="event">
@@ -10,7 +11,7 @@ const EventsPage = () => (
       <ul className='event-list'>
         <li>
           <div className="event-post">
-            <h3 className="event-title event-el" >Slam Poetry</h3>
+            <h3 className="event-title event-el" >{Events[0].title}</h3>
             <p className="event-desc event-el">Slam poetry night hosted by local university poetry club!</p>
             <p className="event-date event-el">3/25/2021</p>
             <ul className="link-list">
