@@ -1,15 +1,18 @@
 #faces{
   background-image: url('../../resources/face-bg@2x.png');
   height: 83.5vh; 
-  background-position: -15em -8em;
-  background-size: 120%;
+  background-position: -46em -10.5em;
+  background-size: 150%;
   background-repeat: no-repeat;
-
+  
 }
 
 .faces-title{
-  margin: 1em;
+  padding-top: 1em;
+  margin-bottom: 2em;
   text-align: center;
+  font-size: 54px;
+  color: white;
 }
 
 .team{
@@ -30,6 +33,12 @@
   flex-direction: column;
   justify-content: space-around;
   height: 50%;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.team-name{
+  font-size: 46px;
 }
 
 .team-img{
