@@ -1,5 +1,8 @@
 import React from 'react';
 import "./FacesPage.css";
+import john from '../../resources/john.jpg';
+import diane from '../../resources/diane.jpg';
+import brett from '../../resources/brett.jpg';
 
 const FacesPage = () => (
   <main id="faces">
@@ -7,18 +10,18 @@ const FacesPage = () => (
 
     <section className="team">
       <div className="team-card">
-        <img className="team-img" src="" alt=""/>
+        <img className="team-img" src={john} alt=""/>
         <h3 className="team-name">John</h3>
         <p className="team-desc"></p>
       </div>
       <div className="team-card">
-        <img className="team-img" src="" alt=""/>
-        <h3 className="team-name">John</h3>
+        <img className="team-img" src={diane} alt=""/>
+        <h3 className="team-name">Diane</h3>
         <p className="team-desc"></p>
       </div>
       <div className="team-card">
-        <img className="team-img" src="" alt=""/>
-        <h3 className="team-name">John</h3>
+        <img className="team-img" src={brett} alt=""/>
+        <h3 className="team-name">Brett</h3>
         <p className="team-desc"></p>
       </div>
     </section>
