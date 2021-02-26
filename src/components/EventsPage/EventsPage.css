@@ -14,40 +14,8 @@
   overflow-y:scroll;
 }
 
-.event-title{
-  font-size: 32px;
-}
-
 .event-list{
   list-style: none;
 }
 
-.event-post{
-  padding-left: 1em;
-  padding-bottom: 1em;
-  border-left: .5em solid #C6713A;
-  border-bottom: .5em solid #C6713A;
-  margin-bottom: 3em;
-}
-
-.event-el{
-  margin-bottom: 1em;
-}
-
-.event-desc{
-  margin-left: 1em;
-  font-size: 26px;
-}
-.event-date{
-  margin-left: 1em;
-}
-.link{
-  text-decoration: none;
-  color: black;
-  margin-left: 1em;
-}
-.link-list{
-  display: flex;
-  list-style: none;
-}
 
