@@ -4,7 +4,7 @@ import map from '../../resources/map.svg';
 
 const ContactPage = () => (
   <main id="contact">
-    <img src={map} alt="cartoon image of map"/>
+    <img className="contact-img" src={map} alt="cartoon image of map"/>
 
     <section className="contact-info">
       <h1 className="contact-title">How to find us</h1>

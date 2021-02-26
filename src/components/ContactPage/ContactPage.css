@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-around;
 }
-
+.contact-img{
+  margin-top: 2em;
+  width: 32%;
+}
 .contact-title{
   font-size: 106px;
   text-align: center;
@@ -12,7 +15,11 @@
   border: 1px solid black;
   text-align: center;
   padding: 3em;
+}
 
+.contact-info{
+  margin-right: 5em;
+  margin-top: 2em;
 }
 
 .contact-shop{
