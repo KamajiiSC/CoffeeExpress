@@ -2,8 +2,7 @@ import React from 'react';
 import "./FacesPage.css";
 
 const FacesPage = () => (
-  <main>
-    Faces
+  <main id="faces">
   </main>
 );
 

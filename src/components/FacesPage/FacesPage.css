@@ -1,0 +1,7 @@
+#faces{
+  background-image: url('../../resources/face-bg@2x.png');
+  height: 83.5vh; 
+  background-position: -15em -8em;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
