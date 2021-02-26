@@ -4,4 +4,16 @@
   background-position: -15em -8em;
   background-size: 120%;
   background-repeat: no-repeat;
+
+}
+
+.faces-title{
+  margin: 1em;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  margin: 1em auto;
+  justify-content: space-around;
 }
