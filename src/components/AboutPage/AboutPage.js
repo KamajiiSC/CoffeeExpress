@@ -5,7 +5,7 @@ import together from '../../resources/together.svg';
 const AboutPage = () => (
   <main>
     <section className="top-section-about">
-      <img src={together} alt=""/>
+      <img className="about-img" src={together} alt=""/>
 
       <section className="quotes">
         <p className="quote">"Wanna grab coffee?"</p>
