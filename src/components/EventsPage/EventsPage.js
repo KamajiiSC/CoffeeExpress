@@ -10,15 +10,11 @@ const EventsPage = () => (
 
     <section className="events">
       <ul className='event-list'>
-        <li>
-          <EventCard {...Events[0]}/>
-        </li>
-        <li>
-          <EventCard {...Events[1]}/>
-        </li>
-        <li>
-          <EventCard {...Events[2]}/>
-        </li>
+        {Events.map(event => 
+          <li key={event.id}> 
+            <EventCard {...event}/> 
+          </li>)
+        }
       </ul>
       
     </section>
