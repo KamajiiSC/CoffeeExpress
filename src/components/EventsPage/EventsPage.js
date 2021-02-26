@@ -1,7 +1,7 @@
 import React from 'react';
 import './EventsPage.css';
 import specialEvent from '../../resources/special-event.svg';
-// import Events from './Events';
+import Events from './Events';
 import EventCard from '../EventCard/EventCard';
 
 const EventsPage = () => (
@@ -11,13 +11,13 @@ const EventsPage = () => (
     <section className="events">
       <ul className='event-list'>
         <li>
-          <EventCard />
+          <EventCard {...Events[0]}/>
         </li>
         <li>
-          <EventCard />
+          <EventCard {...Events[1]}/>
         </li>
         <li>
-          <EventCard />
+          <EventCard {...Events[2]}/>
         </li>
       </ul>
       
